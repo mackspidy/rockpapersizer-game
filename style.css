@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title-wrap {
+    background-color: #4ECDC4;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vmin;
+    font-family: arial;
+    font-weight: 500;
+    padding: 10px;
+}
+.game-buttons-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 5vmin;
+    height: 55vh;
+}
+.gameBtn img {
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 100px;
+    justify-items: unset;
+    object-fit: cover;
+    padding: 5px;
+}
+.score-card-wrap {
+    display: grid;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vmin;
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 15px;
+    font-family: arial;
+    font-size: 15px;
+}
+.winningResult {
+    font-size: 18px;
+    background-color: #c38edc;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.gameBtn{
+    justify-content: center;
+    vertical-align: middle;
+    display: grid;
+    cursor: pointer;
+}
+.gameBtn:hover{
+    background-color: #000;
+    border-radius: 100px;
+    
+}
